@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins",sans-serif;
+  font-family: cursive;
 }
 
 body
@@ -12,13 +12,20 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: skyblue;
+  background-image: url('https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .wrapper
 {
+  border: 2px solid rgba(255,255,255,.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
   width: 420px;
-  background: purple;
+  background: transparent;
   color: #fff;
   border-radius: 10px;
   padding: 30px 40px;
@@ -110,7 +117,7 @@ margin: -15px 0 15px;
 {
   font-size: 14.5px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px ;
 }
 
 .register-link p a
@@ -123,5 +130,5 @@ margin: -15px 0 15px;
 .register-link p a :hover
 {
   text-decoration: underline;
-
+ 
 }
